@@ -1,0 +1,102 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1rem;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  color: #278F92;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 24px !important;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  padding-top: 50px;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.navbar p{
+  font-size: 60px;
+}
+
+.nameFormat:hover{
+  text-transform: uppercase;
+  font-size: 30px !important;
+  font-weight: 600;
+  color: #1A6E71;
+  text-decoration: none;
+}
+
+.nav-item a{
+  text-transform: uppercase;
+}
+
+/* MAIN CONTENT */
+
+.photo {
+  width: 100%;
+}
+
+.sectionIntro{
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.smallText{
+  font-size: 14px;
+}
+
+.card-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #555555;
+}
+
+.card-title:hover{
+text-decoration: none;
+  color: #555555;
+}
+
+/* FOOTER */
+
+.footer{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.footer li{
+  display: inline;
+  padding: 40px;
+  text-transform: uppercase;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #278F92;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: #1A6E71;
+}
+
+.footer-end{
+  font-size: 10px;
+  text-align: center;
+  margin: 40px;
+}

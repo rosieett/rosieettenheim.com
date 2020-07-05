@@ -49,6 +49,12 @@ h2 {
   width: 100%;
 }
 
+.photoSpace{
+  width: 100%;
+  padding: 20px;
+  filter: drop-shadow(0 0 0.75rem #dddddd);
+}
+
 .sectionIntro{
   margin-bottom: 25px;
   margin-top: 50px;

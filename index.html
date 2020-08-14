@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <title>Rosie Ettenheim</title>
 
-  <link rel="stylesheet" href="../../css/normalize.css">
-  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -32,94 +32,107 @@
 
 <body>
 
-  <div class="container">
+  <div class="page">
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light mb-2">
-      <a class="navbar" href="index.html">
-        <h1>Rosie Ettenheim</h1>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light mb-2">
+          <a class="navbar" href="index.html">
+            <h1>Rosie Ettenheim</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
 
-        <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Talk to Me! </a>
-          </li>
-        </ul>
+            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="connect.html">Talk to Me! </a>
+              </li>
+            </ul>
 
+          </div>
+        </nav>
       </div>
-    </nav>
+    </header>
 
     <!-- MAIN PAGE -->
-<div class="main">
+    <div class="main">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-
-      <div class="col-6 col-lg-3">
-        <div class="card">
-          <a href="pages/datavis.html">
-            <img src="images/icons/Icons_DV.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Data Visualization</h3>
+          <div class="col-6 col-lg-3">
+            <div class="card">
+              <a href="pages/datavis.html">
+                <img src="images/icons/Icons_DV.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Data Visualization</h3>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-      </div>
+          </div>
 
 
-      <div class="col-6 col-lg-3">
-        <div class="card">
-          <a href="Portfolio/digital.html">
-            <img src="images/icons/Icons_DV.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Digital</h3>
+          <div class="col-6 col-lg-3">
+            <div class="card">
+              <a href="pages/digital.html">
+                <img src="images/icons/Icons_Digital.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Digital</h3>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-      </div>
+          </div>
 
-      <div class="col-6 col-lg-3">
-        <div class="card">
-          <a href="Portfolio/print.html">
-            <img src="images/icons/Icons_DV.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Print</h3>
+          <div class="col-6 col-lg-3">
+            <div class="card">
+              <a href="pages/print.html">
+                <img src="images/icons/Icons_Pubs.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Print</h3>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-      </div>
+          </div>
 
-      <div class="col-6 col-lg-3">
-        <div class="card">
-          <a href="pages/branding.html">
-            <img src="images/icons/Icons_DV.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Branding</h3>
+          <div class="col-6 col-lg-3">
+            <div class="card">
+              <a href="pages/branding.html">
+                <img src="images/icons/Icons_Website Design.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Branding</h3>
+                </div>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
+
+
       </div>
     </div>
 
-</div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="site-footer">
+        <hr>
+        <p class="footer-end center"> Copyright &#169; Rosie Ettenheim</p>
+        </div>
+      </div>
+    </footer>
 
-  <!-- FOOTER -->
-  <div>
-
-    <p class="footer-end">This site was created by Rosie and hosted by Github Pages</p>
+    <!-- PAGE DIV -->
   </div>
 
-  <!-- PAGE DIV -->
-  </div>
+
+
 
 </body>
 

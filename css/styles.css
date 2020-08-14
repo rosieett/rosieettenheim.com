@@ -128,22 +128,19 @@ h6 {
 }
 
 /* MAIN CONTENT */
-.photo {
-  width: 100%;
-}
 
 .split {
   height: auto;
+}
+
+.photo{
+  width: 100%;
 }
 
 .photoSpace {
   width: 100%;
   padding: 20px;
   filter: drop-shadow(0 0 0.75rem #dddddd);
-}
-
-.card {
-  margin-top: 50px;
 }
 
 .smallText {

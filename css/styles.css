@@ -174,3 +174,41 @@ h6 {
 .page-item li {
   border-style: none !important;
 }
+
+.cvAbout{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #52c2c3;
+}
+
+.cvAbout:hover{
+  color: #278f92;
+}
+
+.cvAboutOther{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #52c2c3;
+}
+
+.cvTitle{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  color: #52c2c3;
+  border-bottom: 1px solid #52c2c3;
+
+}
+
+.cvContentP, .cvLink{
+  font-size: 14px;
+  color: inherit;
+}
+
+.cvLink:hover{
+  color: #52c2c3;
+}
+
+.cvContentBold{
+  font-weight: 500;
+}

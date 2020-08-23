@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rosie Ettenheim</title>
+
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+        console.log(this);
+      })
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- NAVBAR -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light mb-2">
+          <a class="navbar" href="../../index.html">
+            <h1>Rosie Ettenheim</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../contact.html">Talk to Me! </a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+
+      </div>
+    </header>
+
+
+    <!-- PAGE CONTENT -->
+    <div class="main">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col">
+            <h2>Oceana Marketing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est lorem, tempus quis dolor sed, faucibus vulputate velit. Praesent a bibendum justo. Nunc accumsan quam et tortor tristique, ac auctor massa ultrices. Donec lacinia
+              dignissim porttitor.</p>
+          </div>
+        </div>
+
+        <div class="row mt-3 mb-4">
+          <div class="col-3">
+            <h5>Position</h5>
+            <h6>Graphic Designer, Oceana</h6>
+          </div>
+          <div class="col-3">
+            <h5>Roles</h5>
+            <h6>Graphic Designer</h6>
+          </div>
+          <div class="col-6">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div>
+          <ul class="footer">
+            <li>
+              <a href="../../pages/datavis.html">Data Visualization</a>
+            </li>
+            <li>
+              <a href="../../pages/branding.html">Branding</a>
+            </li>
+            <li>
+              <a href="../../pages/marketing.html">Marketing</a>
+            </li>
+            <li>
+              <a href="../../pages/print.html">Print</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="site-footer">
+          <hr>
+          <p class="footer-end center"> Copyright &#169; Rosie Ettenheim</p>
+        </div>
+      </div>
+    </footer>
+    <!-- PAGE DIV -->
+  </div>
+
+</body>
+
+</html>

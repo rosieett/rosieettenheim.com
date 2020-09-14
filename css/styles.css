@@ -77,6 +77,11 @@ h6 {
   font-weight: 400 !important;
 }
 
+i{
+  color:#333333;
+}
+
+
 /* INNER PAGE FOOTER */
 .footer {
   list-style-type: none;
@@ -111,6 +116,11 @@ h6 {
   border: .25px solid gray;
 }
 
+.bottomPagination ul{
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
 /* NAVBAR */
 .navbar {
   padding-left: 0 !important;
@@ -131,6 +141,7 @@ h6 {
 .nav-item a {
   text-transform: uppercase;
 }
+
 
 /* MAIN CONTENT */
 

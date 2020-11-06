@@ -1,4 +1,8 @@
 /* ALL PAGE ELEMENTS */
+@media (min-width: @screen-sm-min) {
+  
+ }
+
 html, body {
   font-family: 'Montserrat', sans-serif; !important;
   font-size: 1rem;

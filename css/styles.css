@@ -1,45 +1,15 @@
 /* ALL PAGE ELEMENTS */
-@media (min-width: @screen-sm-min) {
-  h2 {
-    font-size: 28px !important;
-  }
 
-  h3 {
-    font-size: 24px !important;
-  }
-
-  h4 {
-    font-size: 20px !important;
-
-  }
-
-  h5 {
-    font-size: 20px !important;
-  }
-
-  h6 {
-    font-size: 20px !important;
-  }
-  p{
-    font-size: 22px !important;
-  }
-
-  .smallText {
-    font-size: 16px;
-  }
-
-  .extrasmallText {
-    font-size: 16px;
-  }
-  }
-
-html, body {
-  font-family: 'Montserrat', sans-serif; !important;
-  font-size: 1rem;
+html, body{
+  font-family: 'Roboto', sans-serif;
   min-height: 100%;
   height: 100%;
   margin: 0;
   padding: 30px 0 0 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 .page {
@@ -67,7 +37,7 @@ hr{
 
 h1 {
   text-transform: uppercase;
-  font-size: 32px;
+  /* font-size: 32px; */
   font-weight: 700 !important;
   color: #278F92;
 }
@@ -81,33 +51,31 @@ h1:hover {
 }
 
 h2 {
-  font-size: 24px;
+  /* font-size: 24px; */
   font-weight: 500;
   padding-bottom: 10px;
 }
 
 h3 {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 400;
   padding-bottom: 10px;
 }
 
 h4 {
   text-transform: uppercase;
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 700;
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
 h5 {
-  font-size: 14px;
   font-weight: 600 !important;
   line-height: 10px !important;
 }
 
 h6 {
-  font-size: 14px;
   font-weight: 400 !important;
 }
 
@@ -115,6 +83,33 @@ i{
   color:#333333;
 }
 
+.light{
+  font-weight: 300;
+}
+
+.regular{
+  font-weight: 400;
+}
+
+.medium{
+  font-weight: 500;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.upperCase{
+  text-transform: uppercase;
+}
+
+.lightTeal{
+  color: #52c2c3
+}
+/*
+.lightTeal < a :hover{
+  color: #278f92;
+} */
 
 /* INNER PAGE FOOTER */
 .footer {
@@ -162,7 +157,7 @@ i{
 }
 
 .navbar p {
-  font-size: 60px;
+  /* font-size: 60px; */
 }
 
 .nameFormat:hover {
@@ -205,17 +200,15 @@ i{
 }
 
 .smallText {
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 .extrasmallText {
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 
 .card-title {
   text-align: center;
-  text-transform: uppercase;
-  font-size: 18px;
   line-height: 22px !important;
   color: #555555;
 }
@@ -233,7 +226,7 @@ i{
 }
 
 .page-link {
-  font-size: 12px !important;
+  /* font-size: 12px !important; */
   color: #278F92 !important;
 }
 
@@ -247,7 +240,7 @@ i{
 
 .articleHeader{
   text-transform: uppercase;
-  font-size: 22px !important;
+  /* font-size: 22px !important; */
   font-weight: 500 !important;
   color: #278F92;
   padding: 10px;
@@ -255,7 +248,7 @@ i{
 
 .infoVisTitles{
   text-transform: uppercase;
-  font-size: 18px !important;
+  /* font-size: 18px !important; */
   font-weight: 600 !important;
   color: #278F92;
   border-bottom: 1px solid #278F92;
@@ -275,54 +268,12 @@ i{
   padding: 0 20px 0 20px;
 }
 
-.cvAbout{
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #52c2c3;
-}
-
-.cvAbout:hover{
-  color: #278f92;
-}
-
-.cvAboutOther{
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #52c2c3;
-}
-
 .cvTitle{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 22px;
-  color: #52c2c3;
   border-bottom: 1px solid #52c2c3;
-}
-
-.cvContentP, .cvLink{
-  font-size: 14px;
-  color: inherit;
-}
-
-.cvLink:hover{
-  color: #52c2c3;
-}
-
-.cvContentBold{
-  font-weight: 500;
 }
 
 .lessSpace{
   margin-bottom: 0px;
-}
-
-.cvTime{
-  font-weight: 300;
-  font-size: 14px;
-}
-
-.cvBulleted{
-  font-size: 12px;
 }
 
 .cvExperienceChunk{
@@ -330,20 +281,5 @@ i{
 }
 
 .smallPrev{
-  font-size: 12px;
-}
-
-.uppercase{
-  text-transform: uppercase;
-}
-
-/* PHONE SETTINGS */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .page{
-      margin: 0;
-      width: 100%;
-    }
+  /* font-size: 12px; */
 }

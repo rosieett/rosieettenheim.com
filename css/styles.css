@@ -284,9 +284,9 @@ i{
 .smallPrev{
   /* font-size: 12px; */
 }
-/*
-@media (min-width: 576px){
+
+@media (max-width: 576px){
   body {
     font-size: 24px;
   }
-} */
+}

@@ -283,6 +283,8 @@ i{
   /* font-size: 12px; */
 }
 
+
+
 @media (max-width: 576px){
   p {
     font-size: 1.25rem;
@@ -307,5 +309,10 @@ i{
   }
   .lightTeal{
     color: #52c2c3
+  }
+  .footer li {
+    padding: 0;
+    display: block;
+    text-transform: uppercase;
   }
 }

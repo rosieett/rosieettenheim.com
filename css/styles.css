@@ -113,12 +113,14 @@ i{
 /* INNER PAGE FOOTER */
 .footer {
   list-style-type: none;
+  padding: 0;
   text-align: center;
 }
 
+
 .footer li {
   display: inline;
-  padding: 40px;
+  padding: 40px 0 0 0;
   text-transform: uppercase;
 }
 

@@ -1,7 +1,5 @@
 /* ALL PAGE ELEMENTS */
 
-
-
 html, body{
   font-family: 'Roboto', sans-serif;
   min-height: 100%;
@@ -288,5 +286,26 @@ i{
 @media (max-width: 576px){
   p {
     font-size: 1.25rem;
+  }
+  .cvTitle{
+    border-bottom: 1px solid #52c2c3;
+  }
+  .light{
+    font-weight: 300;
+  }
+  .regular{
+    font-weight: 400;
+  }
+  .medium{
+    font-weight: 500;
+  }
+  .bold{
+    font-weight: 700;
+  }
+  .upperCase{
+    text-transform: uppercase;
+  }
+  .lightTeal{
+    color: #52c2c3
   }
 }

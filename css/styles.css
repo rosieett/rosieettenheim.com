@@ -1,6 +1,7 @@
 /* ALL PAGE ELEMENTS */
 
-html, body{
+html,
+body {
   font-family: 'Roboto', sans-serif;
   min-height: 100%;
   height: 100%;
@@ -13,6 +14,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
+
 
 .page {
   min-height: 100%;
@@ -33,7 +35,7 @@ footer {
   padding: 50px 0 10px 0;
 }
 
-hr{
+hr {
   max-width: 1100px;
 }
 
@@ -46,6 +48,10 @@ h1 {
 
 a:hover {
   text-decoration: none !important;
+}
+
+a>p {
+  color: #000000;
 }
 
 h1:hover {
@@ -80,31 +86,31 @@ h6 {
   font-weight: 400 !important;
 }
 
-i{
-  color:#333333;
+i {
+  color: #333333;
 }
 
-.light{
+.light {
   font-weight: 300;
 }
 
-.regular{
+.regular {
   font-weight: 400;
 }
 
-.medium{
+.medium {
   font-weight: 500;
 }
 
-.bold{
+.bold {
   font-weight: 700;
 }
 
-.upperCase{
+.upperCase {
   text-transform: uppercase;
 }
 
-.lightTeal{
+.lightTeal {
   color: #52c2c3
 }
 
@@ -142,11 +148,11 @@ i{
   text-align: center;
 }
 
-.stroke{
+.stroke {
   border: .25px solid gray;
 }
 
-.bottomPagination ul{
+.bottomPagination ul {
   justify-content: center;
   margin: 50px 0 0 0;
 }
@@ -179,16 +185,16 @@ i{
   height: auto;
 }
 
-.photo{
+.photo {
   width: 100%;
 }
 
-.halfwidth{
+.halfwidth {
   width: 50%;
   margin: 0 50px 0 0;
 }
 
-.heightFill{
+.heightFill {
   min-height: 100%;
   object-fit: cover;
   max-width: 100%;
@@ -200,11 +206,11 @@ i{
   filter: drop-shadow(0 0 0.75rem #dddddd);
 }
 
-.smallText{
+.smallText {
   font-size: 14px;
 }
 
-.extrasmallText{
+.extrasmallText {
   font-size: 10px;
 }
 
@@ -235,11 +241,11 @@ i{
   border-style: none !important;
 }
 
-.shadow{
+.shadow {
   filter: drop-shadow(0 0 0.75rem black);
 }
 
-.articleHeader{
+.articleHeader {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 500;
@@ -247,7 +253,7 @@ i{
   padding: 10px;
 }
 
-.infoVisTitles{
+.infoVisTitles {
   text-transform: uppercase;
   font-size: 18px !important;
   font-weight: 600 !important;
@@ -255,66 +261,86 @@ i{
   border-bottom: 1px solid #278F92;
 }
 
-.marginTopImage{
+.marginTopImage {
   margin-top: 100px;
 }
 
-.marginBottom{
- margin-bottom: 20px;
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+.graphicCard {
+  border: none;
 }
 
 /* CV PAGE */
 
-.cvCont{
+.cvCont {
   padding: 0 20px 0 20px;
 }
 
-.cvTitle{
+.cvTitle {
   border-bottom: 1px solid #52c2c3;
 }
 
-.lessSpace{
+.lessSpace {
   margin-bottom: 0px;
 }
 
-.cvExperienceChunk{
+.cvExperienceChunk {
   margin-bottom: 30px;
 }
 
-.smallPrev{
+.smallPrev {
   /* font-size: 12px; */
 }
 
 
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   p {
     font-size: 1.25rem;
   }
-  .cvTitle{
+
+  .cvTitle {
     border-bottom: 1px solid #52c2c3;
   }
-  .light{
+
+  .light {
     font-weight: 300;
   }
-  .regular{
+
+  .regular {
     font-weight: 400;
   }
-  .medium{
+
+  .medium {
     font-weight: 500;
   }
-  .bold{
+
+  .bold {
     font-weight: 700;
   }
-  .upperCase{
+
+  .upperCase {
     text-transform: uppercase;
   }
+
   .lightTeal {
     color: #52c2c3
   }
+
   .footer li {
     padding: 0;
     display: block;
     text-transform: uppercase;
   }
+}
+
+.filler {
+  width: 100%;
+  height: 100%;
+  background-color: #888888;
+  text-align: center;
+  justify-content: center;
 }

@@ -15,7 +15,6 @@ p {
   font-size: 1rem;
 }
 
-
 .page {
   min-height: 100%;
   height: 100%;
@@ -50,8 +49,10 @@ a:hover {
   text-decoration: none !important;
 }
 
-a>p {
-  color: #000000;
+.articleLink:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #206E71;
 }
 
 h1:hover {
@@ -90,6 +91,10 @@ i {
   color: #333333;
 }
 
+a {
+  color: #212529;
+}
+
 .light {
   font-weight: 300;
 }
@@ -112,6 +117,13 @@ i {
 
 .lightTeal {
   color: #52c2c3
+}
+.graphicCard{
+  padding: 0 20px 20px 20px;
+}
+
+.centerText{
+  justify-content: center;
 }
 
 
@@ -180,6 +192,11 @@ i {
 
 
 /* MAIN CONTENT */
+
+img{
+  width: 100%;
+  height: auto;
+}
 
 .split {
   height: auto;
@@ -269,10 +286,6 @@ i {
   margin-bottom: 20px;
 }
 
-.graphicCard {
-  border: none;
-}
-
 /* CV PAGE */
 
 .cvCont {
@@ -297,9 +310,13 @@ i {
 
 
 
+
 @media (max-width: 576px) {
-  p {
-    font-size: 1.25rem;
+
+  p,
+  .articleLink,
+  .articleLink:hover {
+    font-size: 1rem;
   }
 
   .cvTitle {

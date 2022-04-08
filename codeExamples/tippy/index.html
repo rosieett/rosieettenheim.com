@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@4/themes/light.css" />
+
+    <style>
+        main {
+            padding-top: 50px;
+            width: 30%;
+            margin: 0 auto;
+        }
+
+        .section {
+            display: inline-flex;
+        }
+
+        .column {
+            max-width: 31%;
+        }
+
+        .column-first {
+            max-width: 25%;
+            padding: 5%;
+            transform: translateY(75px);
+        }
+
+        .column-short {
+            padding-right: 20px;
+        }
+
+        .column-short img {
+            padding-bottom: 22px;
+        }
+
+        .title {
+            padding-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            padding-bottom: 5px;
+        }
+
+        #tray-nav-wrapper {
+            overflow: unset !important;
+        }
+
+        .tippy-tooltip.light-theme {
+            padding: 10%;
+            width: 200px;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+
+        <section class="section">
+
+            <div class="column-first">
+                <img src="https://wriorg-dev.s3.amazonaws.com/d8/s3fs-public/2022-03/Icons-14_0.png?VersionId=ZwyKJxTLWZx_46l5NpwKi7WDv7xLznG." alt="a long arrow with natural approaches at the top and technological approacheson the bottom">
+            </div>
+
+            <div class="column column-short">
+                <img class="title" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-16_0.png?VersionId=78K05E7D_EWXNU.LKtRQEuJ3vQx_OFWh" alt="carbon removal approaches on land">
+                <img id="a1" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-06.png?VersionId=c0jtxLa5BXjVXd2pd4Z2w4IIZtkQvImr" alt="group of trees to represent afforestation and reforestation">
+                <img id="a2" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-05.png?VersionId=n50GC0MH09ebMbJJAlemgSa_QqtQVWBh" alt="outline of seedling plant for soil carbon sequestration icon">
+                <img id="a3" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-04.png?VersionId=dAOIXSY.808cSp.3IXfMKGhqPji1J3zZ" alt="outline of numerous rocks for biochar icon">
+                <img id="a4" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-03.png?VersionId=NGHFDCRn9LG.rHmPkz.djfQtQb8Mr37C" alt="outline of sun and field for biomass carbon removal and storage icon">
+                <img id="a5" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-02.png?VersionId=lqrX0J8UgZ3layROFaFvLhzduNbPV.sR" alt="outline of a large rock, carbon mineralization icon">
+                <img id="a6" src="https://wriorg-dev.s3.amazonaws.com/d8/s3fs-public/2022-03/Icons-01.png?VersionId=GUc_Sa2srm_1tbec8p7i_21.nBfJM735" alt="">
+            </div>
+
+            <div class="column">
+                <img class="title" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-17_0.png?VersionId=QPqG03szloAx4bj_7elnxFYsC8_liGje" alt="carbon removal approaches in the ocean">
+                <img id="b1" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-13.png?VersionId=1CY81Pbr.gtZwYFuOlqVVuGrWoXrlPjF" alt="wetland grasses coming out of water outline">
+                <img id="b2" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-12.png?VersionId=jp.IiUJprQkDjeRNU0q1cKRPCmWCUV2z" alt="seaweed and rocks icon">
+                <img id="b3" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-11.png?VersionId=kAd4O1R_FysOwic_1yb8NqfNBvuKRkN6" alt="waves with an arrow facing up">
+                <img id="b4" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-09.png?VersionId=dUvAO8afM3hY1Ug75by9nvq.LF0WrHa5" alt="Waves with an arrow facing down">
+                <img id="b5" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-10.png?VersionId=6j50HYcKFVuY9VAt2WpM6yniTQDVxoor" alt="nitrogen periodic table symbol">
+                <img id="b6" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-08.png?VersionId=PnSeUHjH1EA3da4hFvi.Hs.lmKslrppc" alt="large rock as alkalinity enhancement">
+                <img id="b7" src="https://files.wri.org/d8/s3fs-public/2022-03/Icons-07.png?VersionId=jNIvONcaV2QfzeOZVVM.R89Esg7OVwx2" alt="battery with a lightening bolt">
+            </div>
+
+        </section>
+
+        <p style="font-size: 75%" ;><em>Note: The natural vs. technological
+                categorization shown here is illustrative rather than definitive and will vary depending on how
+                approaches are applied, particularly for carbon removal approaches in the ocean.</em>
+        </p>
+    </main>
+
+
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script>
+        tippy.setDefaults({
+            theme: 'light',
+            placement: 'right',
+        })
+        tippy('#a1', {
+            content: 'Afforestation and reforestation:<br> Growing trees to restore forests and expand tree cover in un-forested areas.',
+        });
+
+        tippy('#a2', {
+            content: 'Soil carbon sequestration:<br> A range of agricultural techniques and practices that can increase the ability of soils to sequester carbon.',
+        });
+        tippy('#a3', {
+            content: 'Biochar: <br>A process of heating biomass without oxygen to turn embodied carbon within the biomass into a kind of charcoal that resists decay and can be used as a soil additive.',
+        });
+        tippy('#a4', {
+            content: 'Biomass carbon removal and storage:<br>Range of processes and applications that use biomass and store its embodied carbon. This includes but is broader than bioenergy with carbon capture and storage (BECCS), which is often included in climate models.',
+        });
+        tippy('#a5', {
+            content: 'Carbon mineralization:<br>Range of applications that use reactive minerals in rocks to chemically bind with and store CO2 as a solid.',
+        });
+        tippy('#a6', {
+            content: 'Direct air capture:<br>Machines that use chemicals to react with and capture CO2 in the air; CO2 can then be stored underground or used in durable products.',
+        });
+        tippy('#b1', {
+            content: 'Coastal wetland restoration:<br> Restoring mangroves, salt marshes and seagrasses, which are natural carbon sinks.',
+        });
+        tippy('#b2', {
+            content: 'Seaweed cultivation:<br>Growing seaweed, which sequesters carbon through photosynthesis, then sinking it to the deep ocean or using it in durable products.',
+        });
+        tippy('#b3', {
+            content: 'Artificial upwelling:<br>Moving deep nutrient-rich water to the surface to spur phytoplankton growth; a portion of embodied carbon in the phytoplankton is then expected to naturally cycle to the deep ocean for storage.'
+        });
+        tippy('#b4', {
+            content: 'Artificial downwelling:<br> Moving surface water to a depth where more dissolved inorganic carbon can be held.',
+        });
+        tippy('#b5', {
+            content: 'Nutrient fertilization:<br>Adding materials like nitrogen, phosphorus or iron to areas where it is a limiting nutrient to phytoplankton growth — a portion of embodied carbon in the phytoplankton is then expected to naturally cycle to the deep ocean for storage.',
+        });
+        tippy('#b6', {
+            content: 'Alkalinity enhancement:<br>A form of carbon mineralization; adding certain types of crushed rock to react with dissolved CO2 in seawater and increase levels of dissolved inorganic carbon.',
+        });
+        tippy('#b7', {
+            content: 'Electrochemical CO2 removal:<br> Using electricity to accelerate mineralization reactions or directly strip CO2 from seawater.',
+        });
+    </script>
+</body>
+
+</html>

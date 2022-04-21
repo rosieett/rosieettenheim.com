@@ -10,3 +10,5 @@ Examples of my work can be seen throughout for my print/static work, but code ex
 
 * Bootstrap v5.1.3
 * Lightbox for Bootstrap 
+* jQuery
+* Javascript libraries: Tippy, Popper, Isotope

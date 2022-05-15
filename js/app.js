@@ -1,8 +1,11 @@
+$(document).ready(function () {
 
-    $(document).ready(function () {
-      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-        console.log(this);
-      })
-    });
+  import 'bs5-lightbox';
+  $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+    console.log(this);
+  })
+
+
+});

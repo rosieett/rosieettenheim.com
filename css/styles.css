@@ -87,7 +87,7 @@ h4 {
 h5 {
   font-size: 1.1rem;
   font-weight: 600 !important;
-  line-height: 10px !important;
+
 }
 
 h6 {
@@ -395,14 +395,95 @@ li a {
   margin-bottom: 10%;
 }
 
+
+/* .container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 50px;
+  background: white;
+  box-sizing: border-box;
+} */
+
+.job ul {
+  width: 100%;
+  display: block;
+  padding-left: 22px;
+  list-style-type: disc;
+}
+
+.job li {
+  width: 100%;
+  display: list-item;
+  margin-bottom: 10px;
+}
+
+/* section headings */
+section h2 {
+  font-size: 1.5rem;
+  color: #206E71;
+}
+
+/* job header row */
+.job-area {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.job-area span {
+  margin-left: auto;
+  text-align: right;
+}
+
+.job-title{
+  line-height: 1rem;
+}
+
+.job-head strong{
+  font-size: 1.25rem
+}
+
 @media (max-width: 1270px) {
   .page {
     width: 80%;
   }
 }
 
+@media (max-width: 768px) {
+  .row .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* centers text vertically */
+    height: 100%;
+    min-height: 100%;
+  }
 
-@media (max-width: 750px) {
+  .row.mt-3.mb-3 {
+    align-items: center; /* centers both columns to each other */
+  }
+
+  .container {
+    margin: 0;
+    padding: 24px;
+    max-width: 100%;
+  }
+
+  .job-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .job-area span {
+    order: 1;
+    margin: 0;
+    text-align: left;
+  }
+
+  .job-area .job-title {
+    order: 2;
+    margin: 0 0 4px 0;
+    font-weight: 600;
+  }
 
   p,
   .articleLink,
